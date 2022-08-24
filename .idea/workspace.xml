@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7275d0e3-6121-4652-9d47-26718772d248" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductRepositoryTest">
+  <component name="RunManager" selected="JUnit.ProductRepositoryTest.testSaveAlreadyExists">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Lesson14Task1" />
@@ -73,31 +75,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepositoryTest.testFindByIdWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductRepositoryTest.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson14Task1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ProductRepositoryTest" />
-      <option name="METHOD_NAME" value="testFindByIdWithException" />
+      <option name="METHOD_NAME" value="testFindById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepositoryTest.testRemoveById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductRepositoryTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson14Task1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ProductRepositoryTest" />
-      <option name="METHOD_NAME" value="testRemoveById" />
+      <option name="METHOD_NAME" value="testSave" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepositoryTest.testRemoveByIdWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductRepositoryTest.testSaveAlreadyExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson14Task1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ProductRepositoryTest" />
-      <option name="METHOD_NAME" value="testRemoveByIdWithException" />
+      <option name="METHOD_NAME" value="testSaveAlreadyExists" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductRepositoryTest.testSaveAlreadyExists" />
         <item itemvalue="JUnit.ProductRepositoryTest" />
+        <item itemvalue="JUnit.ProductRepositoryTest.testFindById" />
+        <item itemvalue="JUnit.ProductRepositoryTest.testSave" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ProductRepositoryTest.testRemoveByIdWithException" />
-        <item itemvalue="JUnit.ProductRepositoryTest.testFindByIdWithException" />
-        <item itemvalue="JUnit.ProductRepositoryTest.testRemoveById" />
       </list>
     </recent_temporary>
   </component>

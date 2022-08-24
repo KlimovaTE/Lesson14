@@ -17,12 +17,20 @@ public class ProductRepository {
     }
 
     public void save(Product newProduct) {
-        Product[] tmp = new Product[items.length + 1];
-        for (int i = 0; i < items.length; i++) {
-            tmp[i] = items[i];
+        int a = newProduct.id;
+        Product p=findById(a);
+        if (findById(newProduct.id) != null) {
+            throw new AlreadyExistsException(
+                    "Element with id: " + newProduct.id + " already exists"
+            );
+        } else {
+            Product[] tmp = new Product[items.length + 1];
+            for (int i = 0; i < items.length; i++) {
+                tmp[i] = items[i];
+            }
+            tmp[tmp.length - 1] = newProduct;
+            items = tmp;
         }
-        tmp[tmp.length - 1] = newProduct;
-        items = tmp;
     }
 
     public Product[] findAll() {
